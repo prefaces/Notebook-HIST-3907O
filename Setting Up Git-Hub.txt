@@ -1,0 +1,7 @@
+Setting Up Git-Hub
+
+As part of my continuing progress of chronicling my experience in this course, I wanted to address Git-Hub. To put things simply - this was frustrating!
+I purchased a new computer last summer and am still unfamiliar with some of its processes. Setting up Git-Hub unfortunately involved about 4 hours of set up before I could start using the software on my computer. While I eventually worked out the problems, I was taken on an unwanted adventure of my computer system to try to repair the obstructions. While I was able to repair some, others remained beyond my grasp. For example, I was never able to download the tutorial and had to use a version I found online.
+
+Apart from these struggles, my introduction to the Git-Hub software was both exciting and challenging. This was my first exposure to even some elementary coding and I found the premise to be quite exciting! It was also incredibly satisfying to work through a step and be greeted with success! Though not all steps were achieved smoothly, I am happy to report that I finished the exercise and completed everything I needed to complete.
+Unfortunately, I am not confident that my success could be easily replicated. I will be saving the tutorial webpages for easy future reference. Hopefully the most challenging set-up is behind me. I look forward to begin applying these skills I have learned!
