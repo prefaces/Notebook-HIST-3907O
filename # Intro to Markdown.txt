@@ -1,0 +1,19 @@
+# Intro to Markdown
+
+## Why I am taking HIST 3907 O
+
+This short piece is meant to provide an introduction to why I chose to take this course while also practicing the Markdown tool *Dillinger*.
+
+I suppose the first order of business is to introduce myself. My name is Benjamin Doyle and I am a fourth year student of [Humanities](http://carleton.ca/bhum/) and [History](http://carleton.ca/history/) at [Carleton University](http://carleton.ca/). I am currently in my final semester and wanted to broaden my skillset while studying in a subject that interested me - enter digital history.
+
+This course both excites and slightly intimidates me. I am very excited to learn many fascinating programs and tools to help expand my digital literacy. Ideally, I will perserver through the learning curve and emerge with a skillset capable of attempting many digital history projects to supplement my current research and interests. While it will take time to get comfortable with the digital learning environment, I am hopeful that I will happily learn through both positive and negative experiences.
+
+I have a limited experience with many digital technologies. My digital familiarity does not extend far beyond the Microsoft Office suite and essential internet usage common to anyone of my generation. All that being said, I am always eager to learn and have already been excited by many of the programs and tools that have been showcased. This tool for instance is fascinating to me. Beyond a familiarity with [Slack](https://slack.com/), almost everything in this course is new to me. I look forward to emerging from this course with a comfortable familiarity with many new tools!
+
+Finally to wrap up this exercise, we have been asked to include two images. I have decided to include images of two individuals I am researching in my other classes. The first image is of Dante, whom I am studying in a Medieval history and philosophy class. The second image is of Charles Taylor, whom I am studying in one of my Humanities classes. Who knows, perhaps skills that I learn in this class will help complement my research in other classes. I suppose we will have to wait and see!
+
+![Dante](https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Dante_Domenico_di_Michelino_Duomo_Florence.jpg/800px-Dante_Domenico_di_Michelino_Duomo_Florence.jpg "Dante")
+![Charles Taylor](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Charles_Taylor.jpg/800px-Charles_Taylor.jpg "Charles Taylor")
+
+Well that's all for now. I am looking forward to the next exercise!
+
