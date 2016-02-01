@@ -1,0 +1,9 @@
+ResophNotes and Tagging
+
+I am writing this note after having completed exercise 3 of the first module. I found this exercise to be very intuitive and kind of fun! I liked the simplicity of this software and the ease of moving notes after having previously set up my git-hub account.
+
+I have been asked to discuss my tagging system. I'm afraid there isn't much to it. I have designed it in a way to try to anticipate my thematic blog posts. The system is still in its infancy and I anticipate it will continue to improve as I write more of these.
+
+One element of the Git-Hub display that I don't like is the organization of files. It seems as though the repository could almost immediately turn into a mess. I shall have to look into organizing principles to avoid complete chaos.
+
+I don't have a lot to write at this moment as I recently completed multiple blog entries. Looking forward to the last exercise!
