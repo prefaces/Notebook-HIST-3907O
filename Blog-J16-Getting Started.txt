@@ -1,4 +1,4 @@
-Getting Started
+Blog-J16-Getting Started
 January 11 2016
 Having started getting into the course, I am both excited and slightly intimidated by what the course has to offer. My excitement is simply an excitement to learn! One area where my skills are particularly lacking is in digital literacy. I would love to remedy this situation to a point where I can feel comfortable with more advanced forms of digital analysis and presentation of information.
 I was fortunate that I already have a fluency with Slack. This knowledge of the platform helps me be more comfortable with this aspect of the course. Setting up a domain name was fairly simple mechanically (but quite challenging when determining a name!). I ultimately selected ‘prefaces’ and I imagine I’ll explain my choice at some point. Setting up a github account wasn’t especially challenging. Encountering the home screen once I had the account on the other hand was quite intimidating. All I have figured out so far was how to fork the workbook. Beyond that, I am hoping the exercises walk me through its functionalities.

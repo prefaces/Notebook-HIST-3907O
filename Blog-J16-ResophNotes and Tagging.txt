@@ -1,4 +1,4 @@
-ResophNotes and Tagging
+Blog-J16-ResophNotes and Tagging
 
 I am writing this note after having completed exercise 3 of the first module. I found this exercise to be very intuitive and kind of fun! I liked the simplicity of this software and the ease of moving notes after having previously set up my git-hub account.
 
