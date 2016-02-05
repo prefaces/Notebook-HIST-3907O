@@ -1,0 +1,11 @@
+Blog-F16-Outwit Hub
+
+Installation was smooth and instructions were easy to follow on this exercise. I successfully produced a spreadsheet of my data.
+
+Although I didn't technically run into problems, I found the exercise to be somewhat unsatisfying as I do not really understand what I just did. My basic understanding is that I have extracted the source code from a website that presumably can be acted upon at a later point. I suppose later exercises will make clearer what I am to do with said data in the future. This seems to be an incredibly powerful tool and I am intrigued by what it might be able to do in the future!
+
+Slack was actually helpful for me here. Uncertain if I did the exercise right at all, I checked Slack and discovered that two others had the same problem of not including markers. Realizing my error, I tried it again and I was successful. The data I generated made much more sense. I shall go and credit the people who helped me on Slack. I wonder if the instructions on the course page might be slightly improved to more clearly explain the 'marker' stage.
+
+This exercise has taught me a valuable lesson in the importance of consulting my peers for help when I am uncertain of the result. This is a good lesson to learn and, as mentioned, I will make a post to hopefully help others when they reach the same stage.
+
+I'm not sure I fully understand what I have done here but I believe the knowledge for how to do it is sufficient for the time being. To conclude my work on this exercise, I added a new GitHub repository called 'Data' to store raw data products such as these. Hopefully this will help me organize my products more efficiently.
