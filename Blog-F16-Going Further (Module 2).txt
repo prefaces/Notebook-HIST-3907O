@@ -1,0 +1,29 @@
+Blog-F16-Going Further (Module 2)
+
+I thought I would give one of the bonus exercises a go for a couple reasons. For starters, I am on a bit of a role right now and want to figure out if I can apply my skills to a non-specific example. Additionally, however, I am curious to understand more about what functionalities these technologies enable me to have. With one eye on both my final research project and some of my personal acadmic interests in general, I want to have a strong grasp on these technologies. I am giving the exercise by [Ian Milligan Pages 52-64](https://ianmilli.files.wordpress.com/2015/01/downloading-sources2.pdf) a go with a different source document from which to draw.
+
+I have decided to use the [Canadian Government Publications Portal](https://archive.org/details/governmentpublications) by searching 'governmentpublications' in the 'Any Field' instead of the recommended [Boston Public Library Anti-Slavery Collection](https://archive.org/details/bplscas). I created a directory in which to store my files on my home computer (which I might be able to sync to GitHub later depending on the size of the files). I had to do the first step a little differently but I found the collection with 14738 search results. When attempting to download all results, my request for 15000 results was not possible so I decided to limit my search to '1000' results. Encountering the same problem again, I reviewed the instructions closely and found my difficulty - don't forget to repeat the querry in the advanced search options *:governmentpublications*. Success! I have search results for 14738 entries in an excel document. Following the instructions, I renamed my file 'itemlist.txt' and saved in the aformentioned folder.
+
+Moving on, the instructions were a little unclear with regard to wget. I decided to assume that I have already downloaded sufficient wget capabilities and progressed to the code used to grab text files using Bash. I tried to run one of the commands and was unsuccessful. Clearly, I need to investigate what is meant by *Step Three: use WGET. Copy commands from the Internet Archive.. :)*.
+
+It turns out that nothing was wrong with the code given. The difficult was with the way the text was displayed in the tutorial and my uncertainty of where spaces were in the code. This was remedied with a google search that yielded a clearer iteration. (I now realize that our course workbook would have answered this question for me an advised me to try it first with 10 entries. Having missed this step, I guess I will have to hope I have executed it correctly!) As I type now, Bash is doing its thing and I suspect that I will have a large amount of files to work through at the end!
+
+While I am waiting, I will give myself a better sense of what I just did by analyzing the code based on the [GNU Wget Manual](http://www.gnu.org/software/wget/manual/wget.html). To remind me, the wget command I used was as follows **wget -r -H -nc -np -nH --cut-dirs=2 -A .txt -e robots=off -l1 -i ./itemlist.txt -B 'http://archive.org/download/'**. 
+
+* '-r' indicates recursive (meaning repeitive) or many executions.
+* '-H' indicates span-hosts (meaning that spanning across hosts when doing recursive retrieving is enabled)
+* '-nc' indicate no-clobber (meaning that the code avoids local files being clobbered, or overwritten, upon repeated download)
+* '-np' indicates no-parent (meaning that the code is limited to one repository)
+* '-nH' indicates no-host-directories (meaning that the generation of host-prefixed directories are disabled)
+* '--cut-dirs=2' indicates that number directory components are ignored (this allows us to gai a fine-grained control over the directory where recursive retrieval will be saved)
+* '-A .txt' indicates files with txt are added to the acclist (accept list)
+* 'e' indicates execute
+* 'robots=off' is self-explanatory
+* 'l1' indicates the depth of a recursive retrieval (in this case on level)
+* '-i' indicates an input file
+* '-B' indicates a base url
+* for a more sophisticated and simple iteration of this summary, check out the [Internet Archives Blog](https://blog.archive.org/2012/04/26/downloading-in-bulk-using-wget/), particularly, section 2, step 3.
+
+Even after writing all this (and taking a short break to make dinner) Bash is still working away for me. I have the sense that this process will likely take several hours. The need for careful planning in digital history becomes clear for time management and making sure your code will yield desired results after hours of work.
+
+I checked in on my results an hour later and they were still hammering away. To my surprise, I had only completed work on 4 of the list of 14000+. I decided to stop the command because a) the data being collected was not that important to me, and b) I was collecting data of many forms with which I was unfamiliar. To summarize, I have created a Firefox Document, a DJVU File, a GIF File, 2 Adobe Acrobat Documents, a gz Archive, a TORRENT File, 3 XML Documents, 1 Text Document, and a zip Archive for each of the 4 units from which I collected information. In the future, I may attempt to merely locate text files. This is not to say that this experiement was a bust, but rather that it was an excellent learning experience that gives me the capacity to pull large quantities of metadata off the internet archive! I look forward to learning more about how to deal with some of these files to apply further skills.
