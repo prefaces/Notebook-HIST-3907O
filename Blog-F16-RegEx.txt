@@ -1,0 +1,28 @@
+Blog-F16-RegEx
+
+As I mentioned in 'Getting Started Module 3', I was actually introduced to regex expressions by a programming friend and I can already see its potential! The biggest challenge appeared to be learning the syntax/language. Once this is under my belt (though I have a feeling it will be slow-going to gain mastery) I believe this function will have many creative applications!
+
+The early tutorial is very helpful for walking through some of the basic syntax. I have opened a side document and am making a note of the different functions and what they do. [Here](http://regexlib.com/CheatSheet.aspx?AspxAutoDetectCookieSupport=1) is a copy of an online cheatsheet and a copy I made is below:
+
+* \<cat (beginning of a word)
+cat|> (end of a word)
+* \<cat\> (anywhere in a word)
+* gr(a|e)y (all instances of grey or gray)
+(that dog)|(that cat) (all instances of this combo of characters)
+* d.g (period replaces any letter)
+* do+g (find any number of the previous character: doog, doooog, etc)
+* (do)+g (find any number of the previous combo characters: dog, dodog, dododog, etc)
+* d.+g (find any amount of any characters within search - can turn up sentence strings)
+* (dogs)( and )(cats) in find box and \3\2\1 in the replace box (reverses the order of all strings)
+
+This exercise was very methodical and made sense throughout. While I am following specific instructions, I get the sense that regex instructions could be fun to figure out. There is a certain puzzle nature that is rather appealing. Despite the appealing nature of the puzzle, it soon became clear that I had yet to master the syntax (step 3 took me a while to get the hang of). For the purpose of returning to this later, I am including the steps I took while following this instructions:
+
+1. (.+\<to\>) replace with ~\1 --- this function explains that it is looking for any line before or after 'to' and replacing it's first character with '~'
+2. \r\n[^~].+ replace with nothing --- this function explains that it is looking the first character of any line that does not begin with '~' and replace it with nothing
+3. \n\r[\r\n^~.+] replace with nothing --- this function explains that it is looking for any blank line except those beginning with '~' and replacing it with nothing (note: the function \n\r\ may have been sufficient - upon later reviewing my data, there were still a couple areas where blank lines remained. I am not sure why this is. I found a Notepad function under Edit - Line Operations - Remove Empty Lines (Containing Blank Characters). This got rid of my problem. I am not sure what was wrong with my initial command but I was able to get the data to a place where I could work with it and move on.)
+4. (,)( [0-9]{4})(.+) replace with \2 --- this function finds the part of each line with a comma followed by a space and then a 4 digit number and the entire rest of the line. It is then replaced with only the second of the three groups identified
+5. ~ replace with nothing
+6. \s(to) replace with a comma --- this function finds all mentions of 'to' and the white-space character immediately before it and replaces them with nothing
+7. .+,.+,.+, --- this function identifies any line with extra commas to be manually deleted
+
+And with that the exercise came to a close. All in all - successful! These are very useful skills to be learning. While I still have some work to do before I learn all the syntax, I believe I would be comfortable repeating such an exercise!
