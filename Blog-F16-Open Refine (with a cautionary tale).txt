@@ -1,0 +1,21 @@
+Blog-F16-Open Refine (with a cautionary tale)
+
+To put this simply, this [program](http://openrefine.org/) looks amazing! If this exercise (and subsequent exercises/experimentation) can teach me how to adjust data in a way similar to the examples in the instructional videos, I feel that I would have the ability to do just about anything! It's first appearance is incredibly powerful. Off the top of my head, I can already see an incredible amount of potential usages. To put my first impression simply: WOW!
+
+Starting the exercise, I realized there was a small problem with my data from the previous exercise: I had forgotten to name my headings. Luckily, this was very easy to fix and I was soon able to launch the program with headings.
+
+An additional problem I ran into was that my data was presented in one single column rather than 3 based on my 'Sender, Recipient, Date' headings. This was a little strange as my data does appear in 3 columns when opened in Microsoft Excel. I soon realized the problem and clicked the 'comma (csv)' rather than the 'tab (tsv)' option when creating a new project. This was an oversight on my part but perhaps the instructions could have been more clear. I will make a note of this in Slack.
+
+The first order of business (recognizing, selecting, and merging clusters) was very simple and very powerful! I was thoroughly impressed with the power of the program. I used multiple 'methods' of clustering and found sensible results. I reduced the number of unique senders to 166 and then tried to figure out how to get the number to 150 as recommended. I found that changing the 'radius' for the 'nearest neighbour' was particularly helpful with this. This got me to 153 senders which I was pleased with (including 3 columns with numbers only). I reduced the 'Recipients' from 209 to 177. Extracted and success!
+
+Upon loading my data into Palladio, I was amazed! The 'Graph' tab that showed connections was fascinating! I had no idea how simple it was to make this sort of graph once the data was properly formated! (I love this exercise!) I quickly noticed that my data is still not perfect (there are many dates) but I was still able to see which writers were more frequent and could probably make some inferences about social connections.
+
+I decided I absolutely wanted to go further so I tried the extention exercise: 'Named Entity Extraction'. I followed the installation instructions and successfully installed the program (I will write up a separate set of instructions). I am a little unfamiliar with the different kinds of API keys and do not know exactly what to do on this front (these include AlchemyAPI, DBpedia Spotlight, Zemanta, and dataTXT). Having set this up, I decided to give the rest of the exercise a try to see how it went (and here I see the value to having the original document saved).
+
+I followed the steps and began to apply the 'Extract Named Entities' function to the 'Sender' column. This took a couple minutes. Unfortunately, after running the DBepdia Spotlight function of the 'Extract Named Entities', I produced a new blank column. Realizing that I really don't understand this function, I created a shortened file of the first 10 entries upon which to experiment.
+
+This led to a great deal of experimentation on my part. I applied for an AlchemyAPI key, obtained it, and ran the function. This time, a few of my list of 10 correspondent entries returned with a hit! Now the problem was with my inability to use the links provided as they kept opening in a more-or-less uncomprehensible notepad file. I found an RDF Reader extention that told me it would fix the problem and gave it a try...
+
+I went on to try many solutions and read many Github pages. Ultiamately, I learned that **Extending Data using Freebase is now a depreciated functionality**. I don't know exactly what that means, but I gather that the nifty features in the introductory video are no longer achievable. This halted my efforts on this exercise but I certainly learned a lot through my failed attempts.
+
+At the end of the day, despite the frustrating finale, I am very excited about the potential of OpenRefine!

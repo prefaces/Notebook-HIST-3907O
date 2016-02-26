@@ -1,0 +1,12 @@
+Blog-F16-Stanford NER
+
+Turning now to Exercise 4, I feel I am gaining momentum. I started this exercise with a bit of installation issues but got it cleared up soon enough. Standord NER seemed simple enough at first and the program ran with its identifiers. So far so good.
+
+I got a little confused with the instructions for the command prompt to be opened in the Stanford NER folder. I figured it out soon enough. For future reference, the command is: 
+
+* java -Xmx3g -cp stanford-ner.jar edu.stanford.nlp.ie.crf.CRFClassifier -loadClassifier classifiers/C:\Users\benjamindoyle\Desktop\stanford-ner-2015-12-09\classifiers\english.all.3class.distsim.crf.ser.gz -textFile texas-correspondence-standord-NER.txt -outputFormat inlineXML > “my-ner-output.txt”
+* The first bit, java –mx500m says how much memory to use. If you have 1gb of memory available, you can type java –mx 1g (or 2g, or 3g, etc). The next part of the command calls the NER programme itself. You can set which classifier to use after the –loadClassifier classifiers/ by typing in the exact file name for the classifier you wish to use (you are telling ‘loadClassifier’ the exact path to the classifier). At –textFile you give it the name of your input file (on our machine, called texas-letters.txt, and then specify the outputFormat. The > character sends the output to a new text file, here called my-ner-output.txt.
+
+Unfortunately, I was unsuccessful. I fixed my error when I read more closely and realized that I had to change the source code to reflect my local computer. I made the change and successfully implemented the code... and nothing happened.
+
+At this point I am still very confused as I have done everything properly but nothing happened. I experimented for 15 minutes and then resigned myself to asking for help. As I was closing up, I saved a text version of the file I created using the Stanford NER software and low and behold - I could open it with Notepad ++. Unless I am missing something, I completed the exercise without using Command Prompt. I am very confused but I suppose success is success and I will take it. (EDIT: Having run the software again, I'm wondering if the command prompt is necessary. Perhaps all that I am missing is any confirmation that my code was employed. Maybe I should assume the best here.)
