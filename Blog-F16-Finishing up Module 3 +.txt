@@ -1,0 +1,121 @@
+Blog-F16-Finishing up Module 3 +
+
+At the outset to this post, I would highly recommend this exercise be run with a reduced file size (I ran it with 40 letters which certainly helps when I am still making many mistakes with the code.) Please see the bottom of the post for a table showing my results for my data set.
+
+Just so I didn't finish my day with a bizzare conclusion, I followed the exercise to its follow-up which attempted to use regex to visualize the network.
+
+Visualizing the locations mentioned in the letters could certainly be a useful exercise. One problem I now notice is that I ran the NER using only a list of the correspondence rather than with any locations. Realizing this mistake, I returned to the original text and attempted to run the NER again.
+
+I tried to run this a couple times but the program kept crashing. Thinking that the file size was just too large, I reduced the file size to ~2500 lines. This greeted me with success and I was able to continue the exercise using a small sample size of about 30 pages of the original text. This is more than sufficient to implement the exercise (though if I was studying the entire corpus, I would probably have to run the Stanford NER several times to produce the optimal result.
+
+Turning to the extension exercise, the following is a summary of the exercise for future reference:
+
+1. (\r\n) replace with nothing - this function gets rid of all white spaces and converts the document to a single line of text (note that my program required brackets to work)
+2. (digitized) replaced with \n\1 - this function ideally organizes the document by letter that begins with the statement "digitized by Google" (or something to that effect) - in my reduced version, this created 41 lines.
+3. (LOCATION)(.*?)(LOCATION) replace with \n\2 - search for everything between the each location on each line, thus further separating the text (note that my program required LOCATION to be used with capital letters)(second note that I needed to change the expression from (.\*?) to (.*?) for this to function properly)(third note: this brought me from 41 lines to 668 lines)
+4. <,>,/ replace with tildes (Note these are separate steps - this makes <Location>Texas</Location> become ~Texas~~~ - (Note: turn off regex)
+5. (~~~)(.*) replace with nothing - as locations start each line and are trailed by 3 ~~~, we can search for everything that comes after and delete.
+6. (Digitized)(.*) replaced by \n - delete entire line of 'Digitized by' and replace with a blank line
+7. (\n)(~) replaced by , - get all locaions into same line by replacing ~ with ,
+8. \s*$ replaced by nothing - removal of extraneous blank lines
+9. ^, replaced by nothing - removes comma (remember ^ indicates start of line)
+10. Save (at the conclusion of the exercise, I was left with three lines of text that did not conform to the general pattern, seeing no obvious way to fix my problem, I decided to complete the line manually)
+
+Extra steps to clean further
+
+11. Manually repair remaining data and put everything into one line. (Count reveals I have 625 place names)
+12. Run OpenRefine program to repair any spelling errors after saving previous file in csv format.
+13.  I could not figure out how to transpose 600+ columns into one column with many rows so I returned to Excel, converted it there, and relaunched OpenRefine with the newly formated data.
+14. Created 'text facet' and performed cluster operations, reducing my text to 85 choices. I then saved the file.
+15. I then reverted back to the more familiar Excel format, opened my created file and arranged the data alphabetically. In the column to the right, I created a function to count the number of occurences of each piece of data [=COUNTIF($C:$C,C1)]. After sorting the columns based on number of occurences, I then combined columns using the formula [A1&B1] and applying it to the entire column. Then I copied said combined columns and pasted [using paste values only - *important*] in a new column and then removed duplicate values on one column alone. I ended up with a table showing me how many occurences each location had in my sample text. Finally, I used the 'Text to Columns' feature and split the text using the comma delineator. Et voila! I now have a simple chart showing me the location and its number of occurences.
+
+While there is likely a more effecient way to do this last bit, my way does work. This is by far the most satisfying conclusion to a module as I feel I am able to use the basic features of each exercise and apply them as required. While regex will always be tricky to work with (based on the unfamiliar language), I have confidence in my ability to apply each of these features to my own work. On to the next!
+
+Location | Repetition
+--------- | ----------
+TEXAS	|	159
+Mexico	|	64
+United States	|	59
+Palmerston	|	31
+Great Britain	|	26
+France	|	24
+Santa Anna	|	23
+Houston	|	15
+England	|	14
+Yucatin	|	14
+Barbachano	|	11
+Hamilton	|	11
+Belgium	|	9
+Daingerfield	|	8
+Little Penn	|	8
+Netherlands	|	8
+Spain	|	8
+Arrangoiz	|	7
+London	|	7
+New Orleans	|	7
+Red River	|	7
+Santa	|	7
+Saligny	|	6
+Filisola	|	5
+Bremen	|	4
+Washington	|	4
+5th Tex	|	3
+Austin	|	3
+Europe	|	3
+Lipscomb	|	3
+Somervell	|	3
+Boston	|	2
+Burnet	|	2
+Campeche	|	2
+Cdrdenas	|	2
+Gulf of Mexico	|	2
+Liverpool	|	2
+Pakenham	|	2
+Paris	|	2
+Prussia	|	2
+San Augustine	|	2
+Smith	|	2
+Alamo	|	1
+Arkansas River	|	1
+Beales	|	1
+Berlin	|	1
+Bexar	|	1
+Bowls	|	1
+Carmen	|	1
+Chero	|	1
+Creek	|	1
+Greenville	|	1
+Grentleman	|	1
+Guadalupe Victoria	|	1
+Guizot	|	1
+Hamburg	|	1
+Henderson	|	1
+Holland	|	1
+Hughes	|	1
+Irioja	|	1
+Laguna	|	1
+Lemue	|	1
+Lord Aberdeen	|	1
+Madrid	|	1
+Matagorda	|	1
+Mcintosh	|	1
+Meddez	|	1
+Mexican Union	|	1
+Mississippi	|	1
+Missouri	|	1
+Moigan	|	1
+Penn	|	1
+Republic	|	1
+Rio Grande	|	1
+Rio Grande River	|	1
+ROWLETT	|	1
+Sabine Lake	|	1
+San FeHpe	|	1
+Sinate Doa.	|	1
+Swain	|	1
+Tdegraph	|	1
+Timon	|	1
+Town of Columbia	|	1
+Vienna	|	1
+Yucat	|	1
+
