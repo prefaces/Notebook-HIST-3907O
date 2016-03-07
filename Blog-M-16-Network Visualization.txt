@@ -1,0 +1,18 @@
+Blog-M-16-Network Visualization
+
+I decided to look into the first exercise - Network Visualization - by using the previously cited tool Gephi. Before I begin describing my experiences in the exercise, I just want to cite the obvious value of Scott Weingart's blog series [Demystifying Networks](http://www.scottbot.net/HIAL/?p=6279). These posts seem incredibly thorough. Should I end up doing more network visualization, it is **very important** to return to this blog. Fascinating!
+
+Throughout my introductory reading, it has been made very clear that Network Analysis is often not an appropriate approach to engaging with an historical dataset. This warning has been taken to heart. As I learn more about the practice of Network Analysis, I will try to conceptualize the rationale behind these warnings.
+
+Upon launching the exercise, the first thing I noticed was that my dataset was not fully cleaned and still had some lines with only a comma or a comma followed by a date. For the sake of simplicity, I made some edits using Microsoft Excel and removed all rows that Giphy identified as problematic. With that, my dataset was ready to go.
+
+For my notes:
+* "The Overview pane is used to manipulate the visual properties of the network: change colors of nodes or edges, lay them out in different ways, and so forth. The Overview pane is also where you can apply algorithms to the network;"
+* "The Data Laboratory is for adding, manipulating, and removing data;"
+* The Preview pane is for "final tweaks on the look and feel of the network and to export an image for publication;"
+
+I ran into a problem with Gephi generating the 'weight' of instances of multiple correspondence within the same dataset. I had to stop what I was doing and ask a question in Slack after my internet search trouble-shooting was unsuccessful.
+
+Having completed the exercise, I highly respect the capability of the tool but do not believe I am any closer to understanding its inner logic. I was fairly successful at creating a map showing the data for the Texas Correspondence by following the instructions given in Exercise 1, but I am not sure I could do anything else with this program. I certainly see it's utility and potential. The centrality of certain figures in this time period and their networks could be incredibly valuable for historians. If my final project leads me to use this software however, I will require a great deal more time learning its functionalities through online tutorials. 
+
+A link to my final project can be found on my github page in the repository called Module-4.

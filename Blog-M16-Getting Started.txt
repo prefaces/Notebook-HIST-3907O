@@ -1,0 +1,20 @@
+Blog-M16-Getting Started
+
+It has been a busy couple weeks when I am afraid my time for this course has been eaten up by many other commitments. Committed as I am to getting through all material, I intend to continue to work along. Unfortunately, as we enter the month of March, this may mean that I have less time to explore the interesting side paths of the module.
+
+For example, the limited time left (knowing I want to leave plenty of time for more intensive work on the final project) has forced me to triage my reading of the academic articles that help frame the start of this section. That being said, I did have time to read a couple that grabbed my eye and wanted to comment on a couple of them. For everything else, I have recorded a link in Zotero and may have the opportunity to return.
+
+[Network Analysis](http://www.scottbot.net/HIAL/?tag=network-analysis): Weingart has grabbed my attention both with the depth of his online profile and experience as well as the though provoking blog posts I have briefly surveyed. Network analysis seems fascinating. Much of what he discusses is completely beyond my technological capabilities (hopefully only for now as I begin this module). I love the potential of exploring connections on a vast scale. In a world with an abundance of data, the ability to harness and make sense of some it is invaluable. Reading through an article on the morality of Digital Humanities, Weingart clearly identifies the dangers associated with so much potential. It is clear that any researcher in the Digital Humanities (especially those operating at a macro scale) should be very cogniscent and reflective about the morality of their actions. The importance of close reading to accompany macro-scale Digital Humanities projects is quite clear: "We interspere the distant with the close, attempting to reintroduce the individual into the aggregate." The challenge to unite the distant and the close is put forward. While I will only be conducting a small project at the end of this course, this is a challenge I hope to be able to take up.
+
+[Topic Modeling](http://humanities.uva.nl/~mkoolen1/materials/KB_Mallet_2015/KB_Mallet.html#0): Simply put - this looks interesting but also terribly complex. I won't comment a lot here other than to say that I imagine a future exercise will describe one of these tools. Hopefully the concepts will then become more accessible to me. And just because I found this valuable, I will include it in my notes for future reference:
+
+4 Major Steps for Transformations
+
+1) Text > preprocessing > Words
+2) Words > indexing > Numbers
+3) Numbers > modeling > Topics
+4) Topics > analysing > Composition
+
+From a surface read through the links posted, it is clear that these tools offer both great potential for history and great risk of abuse or misinterpretation. Data visualization and its associated components are exciting - I look forward to digging into this module!
+
+(Sidenote: I just realized there are 10 exercises to this module. Wow! Needless to say I will be pursuing those exercises that interest me the most.)
