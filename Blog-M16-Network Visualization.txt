@@ -1,4 +1,4 @@
-Blog-M-16-Network Visualization
+Blog-M16-Network Visualization
 
 I decided to look into the first exercise - Network Visualization - by using the previously cited tool Gephi. Before I begin describing my experiences in the exercise, I just want to cite the obvious value of Scott Weingart's blog series [Demystifying Networks](http://www.scottbot.net/HIAL/?p=6279). These posts seem incredibly thorough. Should I end up doing more network visualization, it is **very important** to return to this blog. Fascinating!
 
